@@ -1,0 +1,157 @@
+
+
+.nav-link{
+    margin: 0 15px;
+}
+
+
+/*Estilos próprios*/
+.navbar{
+    background: white;
+}
+.box-fix{
+    position: relative;
+    top: 55px;
+}
+
+.bg-top {
+    width: 100%;
+    min-height: 500px;
+    background-image: url('../img/des.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+  }
+
+  .fix-zindex{
+    position: relative;
+    z-index: 2;
+  }
+
+  .overlay{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(40,40,40,0.4);
+  }
+
+  .texto-bg{
+    display: inline-block;
+    color: white;
+    margin-top: 100px;
+  }
+
+  .btn{
+    margin:3px 0;
+  }
+
+  section.chamada{
+    background:#3fa3c5;
+    padding: 8px 0;
+    color: white;
+  }
+
+section.h2{
+    font-size: 34px;
+}
+
+section.sobre{padding: 30px 0;}
+
+.custom-title{
+    position: relative;
+}
+
+.custom-title h2{
+    color: #888;
+    font-size:25px;
+    
+}
+
+.custom-title div{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 3px;
+    background:  #3fa3c5;
+    
+}
+
+section.diferenciais{
+    padding: 30px 0;
+    
+}
+
+section.diferenciais .col-md-4{
+    padding: 0 40px;
+}
+
+section.diferenciais h2{
+    padding: 10px 0;
+    border-bottom: 1px dotted black;
+}
+
+section.convite{
+    padding: 15px 0;
+    background: #3fa3c5;
+}
+
+section.convite h2{
+    font-size: 28px;
+    color: white;
+}
+
+section.convite input[type=email]{
+    width: calc(100% - 100px);
+    height: 40px;
+    vertical-align: top;
+}
+
+section.convite button{
+    width: 100px;
+    height: 40px;
+    vertical-align: top;
+    background-color: #888;
+    margin: 0;
+}
+
+
+section.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cacaca;
+    height: 150px;
+}
+
+section.contato h2{
+    font-size: 35px;
+}
+section.contato a{
+    width: 25px;
+    font-size: 25px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cacaca;
+    height: 150px;
+}
+
+footer h2{
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+footer p{
+    font-size: 20px;
+    color: white;
+    padding: 0;
+}
